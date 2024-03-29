@@ -1,0 +1,108 @@
+Screen {
+    layout: horizontal;
+}
+
+DirectoryTree {
+    height: 100%;
+    max-width: 20%;
+    border: round rgb(254, 255, 172);
+}
+
+TextArea {
+    height: 100%;
+    max-width: 100%;
+    border: round rgb(254, 255, 172);
+}
+
+
+ConfigsScreen {
+    align: center middle;
+}
+
+CreateFileOrDirScreen {
+    align: center middle;
+}
+
+HelpScreen {
+    align: center middle;
+}
+
+.modal {
+    max-width: 40%;
+    height: auto;
+    border: thick $background 80%;
+    background: $surface;
+    padding: 0 1 0 1;
+}
+
+.mt-1 {
+    margin: 1 0 0 0;
+}
+
+.ms-1 {
+    margin: 0 0 0 1;
+}
+
+.me-1 {
+    margin: 0 1 0 0;
+}
+
+.row {
+    height: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.67%;
+}
+
+.col-3 {
+    width: 25.00%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+.col-6 {
+    width: 50.00%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.67%;
+}
+
+.col-9 {
+    width: 75.00%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.67%;
+}
+
+.col-12 {
+    width: 100.00%;
+}
+
+.align-left-bottom {
+    align: left bottom;
+}
+
+.fixed-bottom {
+    dock: bottom;
+}

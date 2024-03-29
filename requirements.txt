@@ -1,0 +1,8 @@
+# dev requirements
+blue
+
+# requirements
+textual==0.55.1
+textual-dev==1.5.1
+textual[syntax]
+pyperclip==1.8.2
